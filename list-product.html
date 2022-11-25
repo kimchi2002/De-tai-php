@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- file css -->
+    <link rel="stylesheet" href="./asset/style2.css">
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/style3.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/6a1bf48248.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Hệ thống cửa hàng -->
+    <div class="wrapper">
+        <div class='toplink'>
+            <ul class="row">
+                <li class="col-6"> <a href="#"> Hệ thống của hàng </a></li>
+                <li class="col-6"> <a style="float: right; padding-right: 20px; " href="#"> Mua online : 0779391675</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Menu -->
+        <div class="topheader">
+            <a href="#" class="logo"><img src="./asset/img/logo.png" alt="#"></a>
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="item"> <a href="#"> Home </a> </div>
+                <div class="item"> <a href="#"> Product </a> </div>
+                <div class="item"> <a href="#"> Category </a> </div>
+                <div class="item"> <a href="#"> Blog </a> </div>
+                <div class="item"> <a href="#"> Contact </a> </div>
+
+                <div class="actions">
+                    <div class="item"> <i class="fa-solid fa-user" style="font-size: 20pt;"></i></div>
+
+                    <div class="item" data-toggle="modal" data-target="#cart"><i class="fa-solid fa-basket-shopping"
+                            style="font-size: 20pt;"></i>(<span class="total-count"></span>)</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="breadcrumb" role="navigation" aria-label="Breadcrumbs">
+            <div class="_cont">
+                <ol>
+                    <li><a title="Back to the frontpage">Home</a></li>
+                    <li><a title="">Men</a></li>
+                    <li>Tony Hunfinger T-Shirt New York</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Main -->
+        <div class="main-list container">
+            <div class="row">
+                <h2 class="name-list col-8">Áo T-shirt</h2>
+                <div class="collection-sort col-4">
+                    <label for="">
+                        <h5 class="my-1">Sắp xếp theo:</h5>
+                    </label><select name="" id="">
+                        <option value="">Từ A->Z</option>
+                        <option value="">Giá cao nhất</option>
+                        <option value="">Giá thấp nhất</option>
+                        <option value="">Hàng mới về</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="main-list-left col-3">
+
+                    <h5>FILTERS</h5>
+                    <span class="line"></span>
+
+                    <h5>Thương hiệu</h5>
+
+                    <label class="container"> Cotton On Body
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">EGANY
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Mango
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="line"></span>
+
+                    <div>
+                        <h5>Mức giá</h5>
+
+                        <label class="container"> Giá dưới 1.000.000₫
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">1.000.000₫ - 2.000.000₫
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">2.000.000₫ - 3.000.000₫
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">3.000.000₫ - 5.000.000₫
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Giá trên 5.000.000₫
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+
+                    <span class="line"></span>
+
+                    <h5>Color</h5>
+                    <div class="swatch clearfix" data-option-index="1">
+
+                        <div data-value="Blue" class="swatch-element color blue available">
+                            <div class="tooltip">Blue</div>
+                            <input quickbeam="color" id="swatch-1-blue" type="radio" name="option-1" value="Blue"
+                                checked />
+                            <label for="swatch-1-blue" style="border-color: blue;">
+                                <img class="crossed-out"
+                                    src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                                <span style="background-color: blue;"></span>
+                            </label>
+
+                        </div>
+
+                        <div data-value="Red" class="swatch-element color red available ">
+                            <div class="tooltip">Red</div>
+                            <input quickbeam="color" id="swatch-1-red" type="radio" name="option-1" value="Red" />
+                            <label for="swatch-1-red" style="border-color: red; ">
+                                <img class="crossed-out"
+                                    src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                                <span style="background-color: red;"></span>
+                            </label>
+                        </div>
+
+                        <div data-value="Yellow" class="swatch-element color yellow available">
+                            <div class="tooltip">Yellow</div>
+                            <input quickbeam="color" id="swatch-1-yellow" type="radio" name="option-1" value="Yellow" />
+                            <label for="swatch-1-yellow" style="border-color: yellow;">
+                                <img class="crossed-out"
+                                    src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                                <span style="background-color: yellow;"></span>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="main-list-right col-9">
+                    <div class="main-product">
+                        <div class="row">
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="./asset/img/Rectangle 20.png" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <h4 class="product-name">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ</h5>
+                                        <p class="price-discount">350.000VNĐ</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <h4 class="product-name">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ</h5>
+                                        <p class="price-discount">350.000VNĐ</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <h4 class="product-name">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ</h5>
+                                        <p class="price-discount">350.000VNĐ</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <h4 class="product-name">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ</h5>
+                                        <p class="price-discount">350.000VNĐ</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <h4 class="product-name">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ</h5>
+                                        <p class="price-discount">350.000VNĐ</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <h4 class="product-name">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ</h5>
+                                        <p class="price-discount">350.000VNĐ</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <h4 class="product-name">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ</h5>
+                                        <p class="price-discount">350.000VNĐ</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <h4 class="product-name">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ</h5>
+                                        <p class="price-discount">350.000VNĐ</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <button class="view-all">View All >></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact" style="margin-top:400px;">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p style="font-size: 40px;color: #FFA500;">Contact Us</p>
+            </div>
+        </div>
+
+        <div data-aos="fade-up">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5104567182652!2d105.80005901485407!3d21.012251886007306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab5f7e8677a7%3A0xe8e81820d9c9ed9b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBMYW8gxJHhu5luZyAtIFjDoyBo4buZaQ!5e0!3m2!1svi!2s!4v1668502527108!5m2!1svi!2s"
+                style="border:0; width: 100%; height: 350px;" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="container py-5" data-aos="fade-up">
+
+            <div class="row ">
+
+                <div class="col-4">
+                    <div class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="address">
+
+                            <h4>Location:</h4>
+                            <p>43 Trần Duy Hưng, Hà Nội</p>
+                        </div>
+
+                        <div class="open-hours">
+                            <i class="fa-solid fa-clock"></i>
+                            <h4>Open Hours:</h4>
+                            <p>
+                                Monday-Saturday:<br>
+                                08:00 AM - 23:00 PM
+                            </p>
+                        </div>
+
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@example.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Call:</h4>
+                            <p>+1 5589 55488 55s</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-7 mt-5 mt-lg-0">
+
+                    <form action="" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="8" placeholder="Message"
+                                required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3>Fashion</h3>
+                            <p>
+                                43 Trần Duy Hưng, Hà Nội, VN<br><br>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="fa-brands fa-google"></i></a>
+                                <a href="#" class="linkedin"><i class="fa-brands fa-staylinked"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by
+            </div>
+        </div>
+    </footer>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <!-- End Footer -->
+
+
+
+</body>
+
+</html>

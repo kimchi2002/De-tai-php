@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- file css -->
+ 
+  <link rel="stylesheet" href="./asset/style.css">
+  <link rel="stylesheet" href="./asset/style2.css">
+  <link rel="stylesheet" href="./asset/style3.css">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- icon -->
+  <script src="https://kit.fontawesome.com/6a1bf48248.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Hệ thống cửa hàng -->
+  <div class="wrapper">
+    <div class='toplink'>
+      <ul class="row">
+        <li class="col-6"> <a href="#"> Hệ thống của hàng </a></li>
+        <li class="col-6"> <a style="float: right; padding-right: 20px; " href="#"> Mua online : 0779391675</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Menu -->
+    <div class="topheader">
+      <a href="#" class="logo"><img src="./asset/img/logo.png" alt="#"></a>
+      <div class="wrap">
+        <div class="search">
+          <input type="text" class="searchTerm" placeholder="What are you looking for?">
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="item"> <a href=""> Home </a> </div>
+        <div class="item"> <a href="#"> Product </a> </div>
+        <div class="item"> <a href="#"> Category </a> </div>
+        <div class="item"> <a href="#"> Blog </a> </div>
+        <div class="item"> <a href="#"> Contact </a> </div>
+
+        <div class="actions">
+          <div class="item"> <i class="fa-solid fa-user" style="font-size: 20pt;"></i></div>
+
+          <div class="item" data-toggle="modal" data-target="#cart"><i class="fa-solid fa-basket-shopping"
+              style="font-size: 20pt;"></i>(<span class="total-count"></span>)</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="breadcrumb" role="navigation" aria-label="Breadcrumbs">
+      <div class="_cont">
+        <ol>
+          <li><a title="Back to the frontpage">Home</a></li>
+          <li><a title="">Men</a></li>
+          <li>Tony Hunfinger T-Shirt New York</li>
+        </ol>
+      </div>
+    </div>
+    <section aria-label="Main content" role="main" class="product-detail">
+      <div itemscope itemtype="http://schema.org/Product">
+        <meta itemprop="url" content="http://html-koder-test.myshopify.com/products/tommy-hilfiger-t-shirt-new-york">
+        <meta itemprop="image" content="//cdn.shopify.com/s/files/1/1047/6452/products/product_grande.png?v=1446769025">
+        <div class="shadow">
+          <div class="_cont detail-top">
+            <div class="cols">
+              <div class="left-col">
+                <div class="thumbs">
+                  <a class="thumb-image active"
+                    href="//cdn.shopify.com/s/files/1/1047/6452/products/product_1024x1024.png?v=1446769025"
+                    data-index="0">
+                    <span><img src="//cdn.shopify.com/s/files/1/1047/6452/products/product_150x150.png?v=1446769025"
+                        alt="Tommy Hilfiger T-Shirt New York"></span>
+                  </a>
+                  <a class="thumb-image"
+                    href="//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_1024x1024.jpg?v=1447104179"
+                    data-index="1">
+                    <span><img src="//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_150x150.jpg?v=1447104179"
+                        alt="Tommy Hilfiger T-Shirt New York"></span>
+                  </a>
+                  <a class="thumb-image"
+                    href="//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_1024x1024.jpg?v=1447104180"
+                    data-index="2">
+                    <span><img src="//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_150x150.jpg?v=1447104180"
+                        alt="Tommy Hilfiger T-Shirt New York"></span>
+                  </a>
+                  <a class="thumb-image"
+                    href="//cdn.shopify.com/s/files/1/1047/6452/products/tricko3_1024x1024.jpg?v=1447104182"
+                    data-index="3">
+                    <span><img src="//cdn.shopify.com/s/files/1/1047/6452/products/tricko3_150x150.jpg?v=1447104182"
+                        alt="Tommy Hilfiger T-Shirt New York"></span>
+                  </a>
+                </div>
+                <div class="big">
+                  <span id="big-image" class="img" quickbeam="image"
+                    style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/product_1024x1024.png?v=1446769025')"
+                    data-src="//cdn.shopify.com/s/files/1/1047/6452/products/product_1024x1024.png?v=1446769025"></span>
+                  <div id="banner-gallery" class="swipe">
+                    <div class="swipe-wrap">
+                      <div
+                        style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/product_large.png?v=1446769025')">
+                      </div>
+                      <div
+                        style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_large.jpg?v=1447104179')">
+                      </div>
+                      <div
+                        style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_large.jpg?v=1447104180')">
+                      </div>
+                      <div
+                        style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko3_large.jpg?v=1447104182')">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="detail-socials">
+                    <div class="social-sharing"
+                      data-permalink="http://html-koder-test.myshopify.com/products/tommy-hilfiger-t-shirt-new-york">
+                      <a target="_blank" class="share-facebook" title="Share"></a>
+                      <a target="_blank" class="share-twitter" title="Tweet"></a>
+                      <a target="_blank" class="share-pinterest" title="Pin it"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="right-col">
+                <h1 itemprop="name">Tony Hunfinger New York</h1>
+                <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                  <meta itemprop="priceCurrency" content="USD">
+                  <link itemprop="availability" href="http://schema.org/InStock">
+                  <div class="price-shipping">
+                    <div class="prices col-5" id="price-preview" quickbeam="price" quickbeam-price="800">
+                      2.360.000₫
+                    </div>
+
+                    <h5 class="cost col-5 " style="text-decoration: line-through; color: gray;"> 4.720.000₫</h5>
+                  </div>
+
+                  <div class="swatches">
+                    <div class="swatch clearfix" data-option-index="0">
+                      <div class="header">Size</div>
+                      <div data-value="M" class="swatch-element plain m available">
+                        <input id="swatch-0-m" type="radio" name="option-0" value="M" checked />
+                        <label for="swatch-0-m">
+                          M
+                          <img class="crossed-out"
+                            src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                        </label>
+                      </div>
+                      <div data-value="L" class="swatch-element plain l available">
+                        <input id="swatch-0-l" type="radio" name="option-0" value="L" />
+                        <label for="swatch-0-l">
+                          L
+                          <img class="crossed-out"
+                            src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                        </label>
+                      </div>
+                      <div data-value="XL" class="swatch-element plain xl available">
+                        <input id="swatch-0-xl" type="radio" name="option-0" value="XL" />
+                        <label for="swatch-0-xl">
+                          XL
+                          <img class="crossed-out"
+                            src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                        </label>
+                      </div>
+                      <div data-value="XXL" class="swatch-element plain xxl available">
+                        <input id="swatch-0-xxl" type="radio" name="option-0" value="XXL" />
+                        <label for="swatch-0-xxl">
+                          XXL
+                          <img class="crossed-out"
+                            src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                        </label>
+                      </div>
+                    </div>
+                    <div class="swatch clearfix" data-option-index="1">
+                      <div class="header">Color</div>
+                      <div data-value="Blue" class="swatch-element color blue available">
+                        <div class="tooltip">Blue</div>
+                        <input quickbeam="color" id="swatch-1-blue" type="radio" name="option-1" value="Blue" checked />
+                        <label for="swatch-1-blue" style="border-color: blue;">
+                          <img class="crossed-out"
+                            src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                          <span style="background-color: blue;"></span>
+                        </label>
+                      </div>
+                      <div data-value="Red" class="swatch-element color red available">
+                        <div class="tooltip">Red</div>
+                        <input quickbeam="color" id="swatch-1-red" type="radio" name="option-1" value="Red" />
+                        <label for="swatch-1-red" style="border-color: red;">
+                          <img class="crossed-out"
+                            src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                          <span style="background-color: red;"></span>
+                        </label>
+                      </div>
+                      <div data-value="Yellow" class="swatch-element color yellow available">
+                        <div class="tooltip">Yellow</div>
+                        <input quickbeam="color" id="swatch-1-yellow" type="radio" name="option-1" value="Yellow" />
+                        <label for="swatch-1-yellow" style="border-color: yellow;">
+                          <img class="crossed-out"
+                            src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                          <span style="background-color: yellow;"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="guide">
+                      <a>Size guide</a>
+                    </div>
+                  </div>
+                  <!-- <form method="post" enctype="multipart/form-data" id="AddToCartForm"> -->
+                  <form id="AddToCartForm">
+                    <select name="id" id="productSelect" quickbeam="product" class="product-single__variants">
+                      <option selected="selected" data-sku="" value="7924994501">
+                        M / Blue - $800.00 USD
+                      </option>
+                      <option data-sku="" value="7924995077">
+                        M / Red - $850.00 USD
+                      </option>
+                      <option data-sku="" value="7924994437">
+                        L / Blue - $850.00 USD
+                      </option>
+                      <option data-sku="" value="7924994693">
+                        L / Yellow - $850.00 USD
+                      </option>
+                      <option data-sku="" value="7924995013">
+                        L / Red - $850.00 USD
+                      </option>
+                      <option data-sku="" value="7924994373">
+                        XL / Blue - $900.00 USD
+                      </option>
+                      <option data-sku="" value="7924994629">
+                        XL / Yellow - $850.00 USD
+                      </option>
+                      <option data-sku="" value="7924830021">
+                        XXL / Blue - $950.00 USD
+                      </option>
+                      <option data-sku="" value="7924994885">
+                        XXL / Red - $850.00 USD
+                      </option>
+                    </select>
+                    <div class="btn-and-quantity-wrap pt-5 mt-5">
+                      <div class="btn-and-quantity">
+                        <div class="spinner">
+                          <span class="btn minus" data-id="2721888517"></span>
+                          <input type="text" id="updates_2721888517" name="quantity" value="1"
+                            class="quantity-selector">
+                          <input type="hidden" id="product_id" name="product_id" value="2721888517">
+                          <span class="q">Qty.</span>
+                          <span class="btn plus" data-id="2721888517"></span>
+                        </div>
+                       
+                        <div id="AddToCart" class="AddToCart">
+                          <span id="AddToCartText" data-name="Tony Hunfinger New York" data-price="2.360.000">Add to
+                            Cart</span>
+
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="detail py-5">
+                    <div>
+                      <div class="detail-item-title">
+                        <h5>Mô tả sản phẩm <i class='fas fa-angle-down'></i></h5>
+                      </div>
+                      <div class="detail-item-data hide">
+                        <ul class="detail-submenu">
+                          <li class="detail-submenu-item">
+                            <p>Mango là nhãn hiệu thời trang quốc tế từ Tây Ban Nha chuyên thiết kế, sản
+                              xuất và phân phối các sản phẩm thời trang, phụ kiện cho nam, nữ và trẻ
+                              em.
+
+                              Mango chính thức mở cửa hàng đầu tiên tại trung tâm thành phố Barcelona
+                              năm 1984 và đến nay đã phát triển mạnh trên 109 quốc gia khắp thế giới
+                              với tổng số 2200 cửa hàng. Sự kết hợp giữa chất lượng sản phẩm và thiết
+                              kế độc đáo, Mango luôn mang đến cho khách hàng hình ảnh hiện đại, năng
+                              động, phù hợp với nhu cầu hàng ngày nhưng cũng không kém phần tinh tế,
+                              thanh lịch và thời trang. Hiện đại - Thành thị - Ứng dụng cao</p>
+
+                          </li>
+                          <li class="detail-submenu-item">
+                            <p>Thông số người mẫu (đang mặc size XS):
+                              - Chiều cao: 178cm
+                              - Vòng eo: 65cm
+                              - Hông: 88cm
+                              - Ngực: 87cm
+
+                              Chất liệu và bảo quản:
+                              - 63% Polyester, 15% Wool, 14% Acrylic, 04% Polyamide, 03% Viscose, 01%
+                              Cotton
+                              - Lộn mặt trái sản phẩm trước khi giặt, tránh giặt bằng máy.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="detail-item-title">
+                        <H5>Chính sách giao hàng <i class='fas fa-angle-down'></i></H5>
+                      </div>
+                      <div class="detail-item-data hide">
+                        <ul class="detail-submenu">
+                          <li class="detail-submenu-item">
+                            <h5>CHÍNH SÁCH GIAO HÀNG</h5>
+                            <p>Dịch vụ giao hàng tận nơi trên toàn quốc, áp dụng cho khách mua hàng trên
+                              website, fanpage và gọi điện thoại, không áp dụng cho khách mua trực
+                              tiếp tại cửa hàng.
+
+                              Đơn hàng sẽ được chuyển phát đến tận địa chỉ khách hàng cung cấp thông
+                              qua công ty vận chuyển trung gian.
+
+                            </p>
+
+                          </li>
+                          <li class="detail-submenu-item">
+                            <p>1. Thời gian giao hàng:
+
+                              Đơn hàng nội và ngoại thành TP.HCM:
+                              Thời gian giao hàng là 1-2 ngày sau khi đặt hàng.
+
+                              Đơn hang trước 11h30 trưa thì sẽ giao trong buổi chiều cùng ngày
+
+                              Đơn hàng sau 11h30 sẽ giao trong buổi tối và sáng hôm sau.
+
+                              Đơn hàng ở các tỉnh thành khác:
+                              Thời gian là 2-3 ngày đối với khu vực trung tâm tỉnh thành phố, 3-7 ngày
+                              đối với khu vực ngoại thành, huyện, xã, thị trấn…
+
+                              (Không tính thứ bảy, chủ nhật hay các ngày lễ tết)
+
+                              Thời gian xử lý đơn hàng sẽ được tính từ khi nhận được thanh toán hoàn
+                              tất của quý khách.
+
+                              Có thể thay đổi thời gian giao hàng nếu khách hàng yêu cầu và EGA Style
+                              chủ động đổi trong trường hợp chịu ảnh hưởng của thiên tai hoặc các sự
+                              kiện đặc biệt khác.
+
+                              Đơn hàng của quý khách sẽ được giao tối đa trong 2 lần. Trường hợp lần
+                              đầu giao hàng không thành công, sẽ có nhân viên liên hệ để sắp xếp lịch
+                              giao hàng lần 2 với quý khách, trong trường hợp vẫn không thể liên lạc
+                              lại được hoặc không nhận được bất kì phản hồi nào từ phía quý khách, đơn
+                              hàng sẽ không còn hiệu lực.
+
+                              Để kiểm tra thông tin hoặc tình trạng đơn hàng của quý khách, xin vui
+                              lòng inbox fanpage hoặc gọi số hotline, cung cấp tên, số điện thoại để
+                              được kiểm tra.
+
+                              Khi hàng được giao đến quý khách, vui lòng ký xác nhận với nhân viên
+                              giao hàng và kiểm tra lại số lượng cũng như loại hàng hóa được giao có
+                              chính xác không. Xin quý khách vui lòng giữ lại biên lại vận chuyển và
+                              hóa đơn mua hàng để đối chiếu kiểm tra.
+
+                              2. Phí giao hàng:
+
+                              Phí ship cố định là 30,000đ áp dụng cho mọi khu vực</p>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="detail-item-title row">
+                        <h5>Chính sách đổi trả <i class='fas fa-angle-down'></i></h5>
+                      </div>
+                      <div class="detail-item-data hide">
+                        <ul class="detail-submenu">
+                          <li class="detail-submenu-item">
+                            <p>Quý Khách hàng cần kiểm tra tình trạng hàng hóa và có thể đổi hàng/ trả
+                              lại hàng ngay tại thời điểm giao/nhận hàng trong những trường hợp sau:
+
+                              Hàng không đúng chủng loại, mẫu mã trong đơn hàng đã đặt hoặc như trên
+                              website tại thời điểm đặt hàng.
+                              Không đủ số lượng, không đủ bộ như trong đơn hàng.
+                              Tình trạng bên ngoài bị ảnh hưởng như rách bao bì, bong tróc, bể vỡ…
+                              Khách hàng có trách nhiệm trình giấy tờ liên quan chứng minh sự thiếu
+                              sót trên để hoàn thành việc hoàn trả/đổi trả hàng hóa. </p>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="social-sharing-btn-wrapper">
+                    <span id="social_sharing_btn">Share</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade my-5 py-5" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table">
+
+            </table>
+            <div>Total price: <span class="total-cart"></span>VND</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn " style="background-color: #FFA500;">Order now</button>
+            <button class="clear-cart btn btn-danger">Clear
+              Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="main-product container">
+        <h1>You might also like</h1>
+        <div class="row">
+          <div class="product-item col-3">
+            <div class="product-item-img">
+              <img src="./asset/img/Rectangle 20.png" alt="">
+              <div class="over-lay">
+                <a href="" class="btn-buy">Mua ngay</a>
+              </div>
+            </div>
+            <div class="product-item-title">
+              <h4 class="product-name pt-3">Set váy bộ </h4>
+              <div class="product-price">
+                <h5 class="price">400.000VNĐ</h5>
+                <h5 class="price-discount">350.000VNĐ</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="product-item col-3">
+            <div class="product-item-img">
+              <img src="./assets/img/Set-bộ.jpg" alt="">
+              <div class="over-lay">
+                <a href="" class="btn-buy">Mua ngay</a>
+              </div>
+            </div>
+            <div class="product-item-title">
+              <h4 class="product-name pt-3">Set váy bộ </h4>
+              <div class="product-price">
+                <h5 class="price">400.000VNĐ</h5>
+                <h5 class="price-discount">350.000VNĐ</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="product-item col-3">
+            <div class="product-item-img">
+              <img src="./assets/img/Set-bộ.jpg" alt="">
+              <div class="over-lay">
+                <a href="" class="btn-buy">Mua ngay</a>
+              </div>
+            </div>
+            <div class="product-item-title">
+              <h4 class="product-name pt-3">Set váy bộ </h4>
+              <div class="product-price">
+                <h5 class="price">400.000VNĐ</h5>
+                <h5 class="price-discount">350.000VNĐ</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="product-item col-3">
+            <div class="product-item-img">
+              <img src="./assets/img/Set-bộ.jpg" alt="">
+              <div class="over-lay">
+                <a href="" class="btn-buy">Mua ngay</a>
+              </div>
+            </div>
+            <div class="product-item-title">
+              <h4 class="product-name pt-3">Set váy bộ </h4>
+              <div class="product-price">
+                <h5 class="price">400.000VNĐ</h5>
+                <h5 class="price-discount">350.000VNĐ</h5>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= Contact Section ======= -->
+    <hr>
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p style="font-size: 40px;color: #FFA500;">Contact Us</p>
+        </div>
+      </div>
+
+      <div data-aos="fade-up">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5104567182652!2d105.80005901485407!3d21.012251886007306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab5f7e8677a7%3A0xe8e81820d9c9ed9b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBMYW8gxJHhu5luZyAtIFjDoyBo4buZaQ!5e0!3m2!1svi!2s!4v1668502527108!5m2!1svi!2s"
+          style="border:0; width: 100%; height: 350px;" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container py-5" data-aos="fade-up">
+
+        <div class="row ">
+
+          <div class="col-4">
+            <div class="info">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="address">
+
+                <h4>Location:</h4>
+                <p>43 Trần Duy Hưng, Hà Nội</p>
+              </div>
+
+              <div class="open-hours">
+                <i class="fa-solid fa-clock"></i>
+                <h4>Open Hours:</h4>
+                <p>
+                  Monday-Saturday:<br>
+                  08:00 AM - 23:00 PM
+                </p>
+              </div>
+
+              <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-7 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>Fashion</h3>
+                <p>
+                  43 Trần Duy Hưng, Hà Nội, VN<br><br>
+                  <strong>Phone:</strong> +1 5589 55488 55<br>
+                  <strong>Email:</strong> info@example.com<br>
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="fa-brands fa-google"></i></a>
+                  <a href="#" class="linkedin"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by
+        </div>
+      </div>
+    </footer>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+    <!-- End Footer -->
+
+    <script src="./asset/script.js"></script>
+
+</body>
+
+</html>

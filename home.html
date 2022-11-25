@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Shop</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./asset/style.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script Type=“text/javascript” src="../asset/script.js"></script>
+    <script src="https://kit.fontawesome.com/6a1bf48248.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Hệ thống cửa hàng -->
+    <div class="wrapper">
+        <div class='toplink'>
+            <ul class="row">
+                <li class="col-6"> <a href="#"> Hệ thống của hàng </a></li>
+                <li class="col-6"> <a style="float: right; padding-right: 20px; " href="#"> Mua online : 0779391675</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Menu -->
+        <div class="topheader">
+            <a href="#" class="logo"><img src="./asset/img/logo.png" alt="#"></a>
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="item"> <a href="#"> Home </a> </div>
+                <div class="item"> <a href="./list-product.html"> Product </a> </div>
+                <div class="item"> <a href="#"> Category </a> </div>
+                <div class="item"> <a href="#"> Blog </a> </div>
+                <div class="item"> <a href="#"> Contact </a> </div>
+
+                <div class="actions">
+                    <div class="item"> <a href="./logIn.html"><i class="fa-solid fa-user" style="font-size: 20pt;"></i></a></div>
+                    <div class="item"><i class="fa-solid fa-basket-shopping" style="font-size: 20pt;"></i></div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner -->
+        <div class="banner">
+            <div class="box-left">
+                <h1>
+                    <span>LET’S EXPLORE </span>
+                    <br>
+                    <span>UNIQUE CLOTHES.</span>
+                </h1>
+                <p>Live for Influential and Innovative fashion!</p>
+
+                <button>Shop now</button>
+            </div>
+            <div class="box-right">
+                <img src="./asset/img/imgbanner1.png" alt="">
+                <img style=" height:80%; " src="./asset/img/imgbanner2.jpg" alt="">
+                <img src="./asset/img/imgbanner3.jpg" alt="">
+            </div>
+            <div class="to-bottom">
+                <a href="">
+                    <img src="./asset/img/to_bottom.png" alt="">
+                </a>
+            </div>
+
+        </div>
+        <img style=" display: flex; width: 100%;padding-top: 50px;" src="./asset/img/banner3.png" alt="">
+        <!-- category -->
+        <hr>
+        <div class="main-category  container">
+            <h1 style="text-align:center ">Category</h1>
+            <div class="row">
+                
+                    <div class="category col-2 py-5">
+                        <img src="./asset/img/category1.png" alt="">
+                        <div class="category-content py-2">
+                            <a href="./list-product.html"><h4>Đầm</h4></a>
+                            <p>14 sản phẩm</p>
+                        </div>
+                    </div>
+               
+                <div class="category col-2 py-5">
+                    <img src="./asset/img/category-2.png" alt="">
+                    <div class="category-content py-2">
+                        <h4>Đầm</h4>
+                        <p>14 sản phẩm</p>
+                    </div>
+                </div>
+                <div class="category col-2 py-5">
+                    <img src="./asset/img/category-3.png" alt="">
+                    <div class="category-content py-2">
+                        <h4>Đầm</h4>
+                        <p>14 sản phẩm</p>
+                    </div>
+                </div>
+                <div class="category col-2 py-5">
+                    <img src="./asset/img/category-4.png" alt="">
+                    <div class="category-content py-2">
+                        <h4>Đầm</h4>
+                        <p>14 sản phẩm</p>
+                    </div>
+                </div>
+                <div class="category col-2 py-5">
+                    <img src="./asset/img/category-4.png" alt="">
+                    <div class="category-content py-2">
+                        <h4>Đầm</h4>
+                        <p>14 sản phẩm</p>
+                    </div>
+                </div>
+                <div class="category col-2 py-5">
+                    <img src="./asset/img/category-4.png" alt="">
+                    <div class="category-content py-2">
+                        <h4>Đầm</h4>
+                        <p>14 sản phẩm</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--New Product -->
+        <div class="container ">
+            <h1 class="new-product-title pb-4">Sale Off 50%</h1>
+            <nav>
+                <div class="nav nav-tabs container" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home"
+                        type="button" role="tab" aria-controls="nav-home" aria-selected="true">Hàng hiệu -50%</button>
+                    <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile"
+                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Ấm áp mùa
+                        đông</button>
+                    <button class="nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav-contact"
+                        type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Christmas</button>
+                </div>
+            </nav>
+            <div class="tab-content my-3" id="nav-tabContent">
+                <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="main-product container">
+                        <div class="row">
+                            <div class="product-item col-3">
+                                <div class="product-item-img">
+                                    <img src="//cdn.shopify.com/s/files/1/1047/6452/products/product_1024x1024.png?v=1446769025" alt="">
+                                    <div class="over-lay">
+                                        <a href="" class="btn-buy">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="product-item-title">
+                                    <a href="./detail-product.html"><h5 class="product-name pt-3">
+                                        Tony Hunfinger New York</h4></a>
+                                        <div class="product-price">
+                                            <p class="price">400.000VNĐ
+                                    </h5>
+                                    <p class="price-discount">350.000VNĐ</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="product-item col-3">
+                            <div class="product-item-img">
+                                <img src="./assets/img/Set-bộ.jpg" alt="">
+                                <div class="over-lay">
+                                    <a href="" class="btn-buy">Mua ngay</a>
+                                </div>
+                            </div>
+                            <div class="product-item-title">
+                                <h5 class="product-name pt-3">Set váy bộ</h4>
+                                    <div class="product-price">
+                                        <p class="price">400.000VNĐ
+                                </h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./assets/img/Set-bộ.jpg" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h5 class="product-name pt-3">Set váy bộ</h4>
+                                <div class="product-price">
+                                    <p class="price">400.000VNĐ
+                            </h5>
+                            <p class="price-discount">350.000VNĐ</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-item col-3">
+                    <div class="product-item-img">
+                        <img src="./assets/img/Set-bộ.jpg" alt="">
+                        <div class="over-lay">
+                            <a href="" class="btn-buy">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div class="product-item-title">
+                        <h5 class="product-name pt-3">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ
+                        </h5>
+                        <p class="price-discount">350.000VNĐ</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="main-product container">
+            <div class="row">
+                <div class="product-item col-3">
+                    <div class="product-item-img">
+                        <img src="./asset/img/Rectangle 20.png" alt="">
+                        <div class="over-lay">
+                            <a href="" class="btn-buy">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div class="product-item-title">
+                        <h5 class="product-name pt-3">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ
+                        </h5>
+                        <p class="price-discount">350.000VNĐ</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item col-3">
+                <div class="product-item-img">
+                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                    <div class="over-lay">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+                <div class="product-item-title">
+                    <h5 class="product-name pt-3">Set váy bộ</h4>
+                        <div class="product-price">
+                            <p class="price">400.000VNĐ
+                    </h5>
+                    <p class="price-discount">350.000VNĐ</h5>
+                </div>
+            </div>
+
+        </div>
+        <div class="product-item col-3">
+            <div class="product-item-img">
+                <img src="./assets/img/Set-bộ.jpg" alt="">
+                <div class="over-lay">
+                    <a href="" class="btn-buy">Mua ngay</a>
+                </div>
+            </div>
+            <div class="product-item-title">
+                <h5 class="product-name pt-3">Set váy bộ</h4>
+                    <div class="product-price">
+                        <p class="price">400.000VNĐ
+                </h5>
+                <p class="price-discount">350.000VNĐ</h5>
+            </div>
+        </div>
+
+    </div>
+    <div class="product-item col-3">
+        <div class="product-item-img">
+            <img src="./assets/img/Set-bộ.jpg" alt="">
+            <div class="over-lay">
+                <a href="" class="btn-buy">Mua ngay</a>
+            </div>
+        </div>
+        <div class="product-item-title">
+            <h5 class="product-name pt-3">Set váy bộ</h4>
+                <div class="product-price">
+                    <p class="price">400.000VNĐ
+            </h5>
+            <p class="price-discount">350.000VNĐ</h5>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="main-product container">
+            <div class="row">
+                <div class="product-item col-3">
+                    <div class="product-item-img">
+                        <img src="./assets/img/Set-bộ.jpg" alt="">
+                        <div class="over-lay">
+                            <a href="" class="btn-buy">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div class="product-item-title">
+                        <h5 class="product-name pt-3">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ
+                        </h5>
+                        <p class="price-discount">350.000VNĐ</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-item col-3">
+                <div class="product-item-img">
+                    <img src="./assets/img/Set-bộ.jpg" alt="">
+                    <div class="over-lay">
+                        <a href="" class="btn-buy">Mua ngay</a>
+                    </div>
+                </div>
+                <div class="product-item-title">
+                    <h5 class="product-name pt-3">Set váy bộ</h4>
+                        <div class="product-price">
+                            <p class="price">400.000VNĐ
+                    </h5>
+                    <p class="price-discount">350.000VNĐ</h5>
+                </div>
+            </div>
+
+        </div>
+        <div class="product-item col-3">
+            <div class="product-item-img">
+                <img src="./assets/img/Set-bộ.jpg" alt="">
+                <div class="over-lay">
+                    <a href="" class="btn-buy">Mua ngay</a>
+                </div>
+            </div>
+            <div class="product-item-title">
+                <h5 class="product-name pt-3">Set váy bộ</h4>
+                    <div class="product-price">
+                        <p class="price">400.000VNĐ
+                </h5>
+                <p class="price-discount">350.000VNĐ</h5>
+            </div>
+        </div>
+
+    </div>
+    <div class="product-item col-3">
+        <div class="product-item-img">
+            <img src="./assets/img/Set-bộ.jpg" alt="">
+            <div class="over-lay">
+                <a href="" class="btn-buy">Mua ngay</a>
+            </div>
+        </div>
+        <div class="product-item-title">
+            <h5 class="product-name pt-3">Set váy bộ</h4>
+                <div class="product-price">
+                    <p class="price">400.000VNĐ
+            </h5>
+            <p class="price-discount">350.000VNĐ</h5>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="row">
+
+        <button class="view-all">View All ></button>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Set đồ -->
+    <div class="setdo container ">
+        <h1 class="my-4" style="text-align:center ">Set For You</h1>
+        <div class="row ">
+            <div class="setdo-item col-4 ">
+                <img src="./asset/img/sedo2.jpg" alt="#">
+                <h3 class="setdo-item-content">Set đồ thu đông 2022</h3>
+                <a href="#">Xem chi tiết</a>
+            </div>
+            <div class="setdo-item col-4">
+                <img src="./asset/img/sedo2.jpg" alt="#">
+                <h3 class="setdo-item-content">Set đồ thu đông 2022</h3>
+                <a href="#" style="text-align: center;">Xem chi tiết</a>
+            </div>
+            <div class="setdo-item col-4">
+                <img src="./asset/img/sedo2.jpg" alt="#">
+                <h3 class="setdo-item-content">Set đồ thu đông 2022</h3>
+                <a href="#">Xem chi tiết</a>
+            </div>
+        </div>
+    </div>
+    <!-- banner 2 -->
+    <div class="container-fluid">
+        <img style="display: flex;width:100%; margin-top: 3%;" src="./asset/img/banner4.jpg" alt="">
+    </div>
+    <!-- Option product -->
+    <div class="container">
+        <div class="row">
+            <h1 class="my-4 mx-3" style="text-align:center ">Bộ sưu tập Thu-Đông</h1>
+
+
+            <div class="row"></div>
+            <div class="main-product container">
+                <div class="row">
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./asset/img/Rectangle 20.png" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h4 class="product-name">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ</h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./assets/img/Set-bộ.jpg" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h4 class="product-name">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ</h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./assets/img/Set-bộ.jpg" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h4 class="product-name">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ</h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./assets/img/Set-bộ.jpg" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h4 class="product-name">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ</h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./assets/img/Set-bộ.jpg" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h4 class="product-name">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ</h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./assets/img/Set-bộ.jpg" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h4 class="product-name">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ</h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./assets/img/Set-bộ.jpg" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h4 class="product-name">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ</h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-item col-3">
+                        <div class="product-item-img">
+                            <img src="./assets/img/Set-bộ.jpg" alt="">
+                            <div class="over-lay">
+                                <a href="" class="btn-buy">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="product-item-title">
+                            <h4 class="product-name">Set váy bộ</h4>
+                            <div class="product-price">
+                                <p class="price">400.000VNĐ</h5>
+                                <p class="price-discount">350.000VNĐ</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <button class="view-all">View All >></button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ======= FeedBack Section ======= -->
+        <section id="feedback" class="feedback section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h1>Feedback</h2>
+                        <h6>What they're fying about us</p>
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="feedback-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
+                                    veniam duis minim
+                                    tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="./asset/img/avatar_1.png" class="feedback-img" alt="">
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="feedback-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Enium quae magna enim sint quorum nulla quem veniam duis minim
+                                    tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="./asset/img/avatar_1.png" class="feedback-img" alt="">
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="feedback-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
+                                    veniam duis minim
+                                    tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="./asset/img/avatar_1.png" class="feedback-img" alt="">
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- End feedback Section -->
+        <!-- Blog -->
+        <div class="container blog">
+            <div class="headBlog">
+                <h1>Blog'Shop</h1>
+            </div>
+            <div class="row">
+                <div class="left col-6 ">
+                    <img style="width:100%;display:flex" src="./asset/img/connect.jpg" alt="">
+                    <h4>Nghệ thuật tiết kiệm tiền hiệu quả từ những tín đồ sống tối giản</h4>
+                    <p><i class="fa-solid fa-calendar-days"></i> Thứ Sáu, 22/07/2022 <i class="fa-regular fa-clock"></i>
+                        2 phút đọc</p>
+
+                    <p>Những mẹo sau có thể giúp bạn lập được kế hoạch quản lý tài chính chặt chẽ nhưng vẫn cảm thấy
+                        cuộc sống nhẹ nhàng,...</p>
+                    <a href="#">Xem tiếp</a>
+                </div>
+                <div class="right col-6">
+                    <img style="display:flex;width:100%" src="./asset/img/blog2.jpg" alt="#">
+                    <h4>Nghệ thuật tiết kiệm tiền hiệu quả từ những tín đồ sống tối giản</h4>
+                    <p><i class="fa-solid fa-calendar-days"></i> Thứ Sáu, 22/07/2022 <i class="fa-regular fa-clock"></i>
+                        2 phút đọc</p>
+
+                    <p>Những mẹo sau có thể giúp bạn lập được kế hoạch quản lý tài chính chặt chẽ nhưng vẫn cảm thấy
+                        cuộc sống nhẹ nhàng,...</p>
+                    <a href="#">Xem tiếp</a>
+
+                </div>
+
+            </div>
+            <div class="row">
+
+                <button class="view-all my-3">View All >></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p style="font-size: 40px;color: #FFA500;">Contact Us</p>
+            </div>
+        </div>
+
+        <div data-aos="fade-up">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5104567182652!2d105.80005901485407!3d21.012251886007306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab5f7e8677a7%3A0xe8e81820d9c9ed9b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBMYW8gxJHhu5luZyAtIFjDoyBo4buZaQ!5e0!3m2!1svi!2s!4v1668502527108!5m2!1svi!2s"
+                style="border:0; width: 100%; height: 350px;" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="container py-5" data-aos="fade-up">
+
+            <div class="row ">
+
+                <div class="col-4">
+                    <div class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="address">
+
+                            <h4>Location:</h4>
+                            <p>43 Trần Duy Hưng, Hà Nội</p>
+                        </div>
+
+                        <div class="open-hours">
+                            <i class="fa-solid fa-clock"></i>
+                            <h4>Open Hours:</h4>
+                            <p>
+                                Monday-Saturday:<br>
+                                08:00 AM - 23:00 PM
+                            </p>
+                        </div>
+
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@example.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Call:</h4>
+                            <p>+1 5589 55488 55s</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-8 mt-5 mt-lg-0">
+
+                    <form action="" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control bg-danger" name="email" id="email"
+                                    placeholder="Your Email" required>
+
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="8" placeholder="Message"
+                                required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3>Fashion</h3>
+                            <p>
+                                43 Trần Duy Hưng, Hà Nội, VN<br><br>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="fa-brands fa-google"></i></a>
+                                <a href="#" class="linkedin"><i class="fa-brands fa-staylinked"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by
+            </div>
+        </div>
+    </footer>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <!-- End Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
